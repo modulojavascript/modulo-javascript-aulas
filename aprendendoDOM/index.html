@@ -3,12 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aprendendo a usar o DOM</title>
+    <title>Aprendendo usar o DOM</title>
+    <style>
+        /* Estilo de exemplo para a classe 'destaque' */
+        .destaque {
+            font-weight: bold;
+            color: red;
+        }
+    </style>
 </head>
 <body>
-    <p id="meuParagrafo">Este é um paragrafo</p>
-    <button onClick="alterarTexto()">Alterar Texto</button>
+    <p id="meuParagrafo">Este é um parágrafo</p>
+    <button onclick="alterarTexto()">Alterar Texto</button>
 
-    <script src="./index.js"></script>
+    <!-- Exemplo 3: Novo elemento adicionado dinamicamente -->
+    <p id="elementoParaRemover">Este parágrafo pode ser removido</p>
+
+    <!-- Exemplo 5: Elemento com classe para manipulação -->
+    <p id="meuElementoComClasse" class="normal">Elemento com classe</p>
+
+    <!-- Exemplo 6: Botão para evento de clique -->
+    <!-- <button id="meuBotao">Clique aqui</button> -->
+
+    <!-- Exemplo 7: Link com atributos manipulados -->
+    <a id="meuLink" href="#" target="_self">Meu Link</a>
+
+    <script src="index.js"></script>
 </body>
 </html>
